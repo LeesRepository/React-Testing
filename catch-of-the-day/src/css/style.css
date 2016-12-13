@@ -629,15 +629,15 @@ button.twitter:after,
 input[type=submit].twitter:after {
   background: #2c8dd0;
 }
-.store-selector {
+.store-selector, .subscription-selector {
   background: #fff;
   max-width: 500px;
   margin: 50px auto;
   padding: 2rem;
   /* border: 2px solid #000; */
 }
-.store-selector input,
-.store-selector button {
+.store-selector input, .subscription-selector input
+.store-selector button, .subscription-selector button {
   width: 100%;
 }
 .store-selector input[type="text"],
